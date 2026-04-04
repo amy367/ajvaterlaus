@@ -14,7 +14,7 @@ const PRODUCTS = [
   { slug: "future-craft-apparel",   title: "Future Craft Apparel",         role: "VP Consumer and Tech · 2019",               image: "/images/product_future-craft-apparel_7.jpg" },
   { slug: "shield",                 title: "Shield",                       role: "VP Consumer and Tech · 2020",               image: "/images/product_shield_7.jpg" },
   { slug: "energy-bra",             title: "Energy Bra",                   role: "Sr. Director Women's Innovation · 2019",   image: "/images/product_energy-bra_8.jpg" },
-  { slug: "wrap-bra",               title: "Wrap Bra",                     role: "VP Consumer and Tech · 2019",               image: "/images/product_wrap-bra_8.jpg" },
+  { slug: "personal-concierge",     title: "Personal Concierge",           role: "Product Strategy · Yohana & Panasonic Well", image: "/images/product_personal-concierge.png" },
 ];
 
 export default function RevolutionaryInnovationPage() {
