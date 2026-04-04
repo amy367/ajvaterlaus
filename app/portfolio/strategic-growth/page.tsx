@@ -42,6 +42,18 @@ export default function StrategicGrowthPage() {
         </p>
       </div>
 
+      {/* Video */}
+      <div className="mb-8">
+        <video
+          src="/videos/iam_white2.mov"
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-full"
+        />
+      </div>
+
       <div className="columns-2 sm:columns-3 gap-3 space-y-3">
         {IMAGES.map((src, i) => (
           <div key={i} className="relative overflow-hidden break-inside-avoid">
