@@ -2,13 +2,19 @@ import Image from "next/image";
 import Link from "next/link";
 
 const PRODUCTS = [
-  { slug: "esi",              title: "ESI",                       role: "Mechanical Engineer · 7 yrs", image: "/images/product_esi_8.jpg" },
-  { slug: "adidas-1",         title: "Adidas",                    role: "Director Mech. Engineering · 2005", image: "/images/product_adidas-1_8.jpg" },
-  { slug: "adidas-micoach",   title: "adidas miCoach",            role: "Director Mechanical Engineer · 2008–12", image: "/images/product_adidas-micoach_8.jpg" },
-  { slug: "adidas-smartball", title: "adidas SmartBall",          role: "Director Digital Experience · 2014", image: "/images/product_adidas-smartball_8.jpg" },
-  { slug: "adidas-all-day",   title: "adidas All Day",            role: "Sr. Director Digital Experience · 2017", image: "/images/product_adidas-all-day_8.jpg" },
-  { slug: "strung",           title: "Specialized — STRUNG",      role: "VP Consumer and Tech · 2019", image: "/images/product_strung_8.jpg" },
-  { slug: "4d",               title: "Specialized — 4D",          role: "VP Consumer and Tech · 2019", image: "/images/product_4d_8.jpg" },
+  { slug: "esi",                    title: "ESI",                          role: "Mechanical Engineer · 7 yrs",              image: "/images/product_esi_8.jpg" },
+  { slug: "adidas-1",               title: "Adidas",                       role: "Director Mech. Engineering · 2005",         image: "/images/product_adidas-1_8.jpg" },
+  { slug: "adidas-micoach",         title: "adidas miCoach",               role: "Director Mechanical Engineer · 2008–12",    image: "/images/product_adidas-micoach_8.jpg" },
+  { slug: "adidas-smartball",       title: "adidas SmartBall",             role: "Director Digital Experience · 2014",        image: "/images/product_adidas-smartball_8.jpg" },
+  { slug: "adidas-all-day",         title: "adidas All Day",               role: "Sr. Director Digital Experience · 2017",   image: "/images/product_adidas-all-day_8.jpg" },
+  { slug: "strung",                 title: "Specialized — STRUNG",         role: "VP Consumer and Tech · 2019",               image: "/images/product_strung_8.jpg" },
+  { slug: "4d",                     title: "Specialized — 4D",             role: "VP Consumer and Tech · 2019",               image: "/images/product_4d_8.jpg" },
+  { slug: "sustainable-materials",  title: "Sustainable Materials",        role: "VP Consumer and Tech · 2019",               image: "/images/product_sustainable-materials_8.jpg" },
+  { slug: "stay-in-play",           title: "Stay in Play",                 role: "Sr. Director Women's Innovation · 2019",   image: "/images/product_stay-in-play_7.jpg" },
+  { slug: "future-craft-apparel",   title: "Future Craft Apparel",         role: "VP Consumer and Tech · 2019",               image: "/images/product_future-craft-apparel_7.jpg" },
+  { slug: "shield",                 title: "Shield",                       role: "VP Consumer and Tech · 2020",               image: "/images/product_shield_7.jpg" },
+  { slug: "energy-bra",             title: "Energy Bra",                   role: "Sr. Director Women's Innovation · 2019",   image: "/images/product_energy-bra_8.jpg" },
+  { slug: "wrap-bra",               title: "Wrap Bra",                     role: "VP Consumer and Tech · 2019",               image: "/images/product_wrap-bra_8.jpg" },
 ];
 
 export default function RevolutionaryInnovationPage() {
