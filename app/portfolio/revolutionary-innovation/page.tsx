@@ -1,24 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const IMAGES = [
-  "/images/1st_gallery_0.jpg",
-  "/images/1st_gallery_1.jpg",
-  "/images/1st_gallery_2.jpg",
-  "/images/1st_gallery_3.jpg",
-  "/images/1st_gallery_4.jpg",
-  "/images/1st_gallery_5.jpg",
-  "/images/1st_gallery_6.jpg",
-  "/images/1st_gallery_7.jpg",
-  "/images/1st_gallery_8.jpg",
-  "/images/1st_gallery_9.jpg",
-  "/images/1st_gallery_10.jpg",
-  "/images/1st_gallery_11.jpg",
-  "/images/1st_gallery_12.jpg",
-  "/images/1st_gallery_13.jpg",
-  "/images/1st_gallery_14.jpg",
-  "/images/1st_gallery_15.jpg",
-  "/images/1st_gallery_16.jpg",
+const PRODUCTS = [
+  { slug: "esi",              title: "ESI",                       role: "Mechanical Engineer · 7 yrs", image: "/images/product_esi_8.jpg" },
+  { slug: "adidas-1",         title: "Adidas",                    role: "Director Mech. Engineering · 2005", image: "/images/product_adidas-1_8.jpg" },
+  { slug: "adidas-micoach",   title: "adidas miCoach",            role: "Director Mechanical Engineer · 2008–12", image: "/images/product_adidas-micoach_8.jpg" },
+  { slug: "adidas-smartball", title: "adidas SmartBall",          role: "Director Digital Experience · 2014", image: "/images/product_adidas-smartball_8.jpg" },
+  { slug: "adidas-all-day",   title: "adidas All Day",            role: "Sr. Director Digital Experience · 2017", image: "/images/product_adidas-all-day_8.jpg" },
+  { slug: "strung",           title: "Specialized — STRUNG",      role: "VP Consumer and Tech · 2019", image: "/images/product_strung_8.jpg" },
+  { slug: "4d",               title: "Specialized — 4D",          role: "VP Consumer and Tech · 2019", image: "/images/product_4d_8.jpg" },
 ];
 
 export default function RevolutionaryInnovationPage() {
@@ -45,16 +35,28 @@ export default function RevolutionaryInnovationPage() {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-        {IMAGES.map((src, i) => (
-          <div key={i} className="relative aspect-square overflow-hidden">
-            <Image
-              src={src}
-              alt={`Innovation work ${i + 1}`}
-              fill
-              className="object-cover hover:scale-105 transition-transform duration-500"
-            />
-          </div>
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {PRODUCTS.map((product) => (
+          <Link
+            key={product.slug}
+            href={`/portfolio/revolutionary-innovation/${product.slug}`}
+            className="group block"
+          >
+            <div className="relative aspect-[4/3] overflow-hidden mb-4">
+              <Image
+                src={product.image}
+                alt={product.title}
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+            <h2 className="font-[family-name:var(--font-display)] text-sm tracking-[0.15em] uppercase text-[#e8e4dc] group-hover:text-[#c4a882] transition-colors">
+              {product.title}
+            </h2>
+            <p className="font-[family-name:var(--font-display)] text-xs tracking-[0.1em] uppercase text-[#555] mt-1">
+              {product.role}
+            </p>
+          </Link>
         ))}
       </div>
     </div>
