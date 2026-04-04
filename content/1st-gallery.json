@@ -1,0 +1,75 @@
+{
+  "slug": "1st-gallery",
+  "label": "Revolutionary Innovation",
+  "images": [
+    {
+      "filename": "1st_gallery_0.jpg",
+      "src": "https://static.wixstatic.com/media/c83661_8c9e870465bb478c9e770f35e0e4fc0c~mv2.png/v1/fill/w_429,h_1135,fp_0.44_0.55,q_90,enc_avif,quality_auto/c83661_8c9e870465bb478c9e770f35e0e4fc0c~mv2.png"
+    },
+    {
+      "filename": "1st_gallery_1.jpg",
+      "src": "https://static.wixstatic.com/media/c83661_57014973ce87430ca53e5f578f6f7ebd~mv2.png/v1/fill/w_480,h_1372,fp_0.59_0.51,q_90,enc_avif,quality_auto/c83661_57014973ce87430ca53e5f578f6f7ebd~mv2.png"
+    },
+    {
+      "filename": "1st_gallery_2.jpg",
+      "src": "https://static.wixstatic.com/media/c83661_5aa69311e9dc42a8a929114f8f86cd73~mv2.png/v1/fill/w_480,h_1372,fp_0.75_0.5,q_90,enc_avif,quality_auto/c83661_5aa69311e9dc42a8a929114f8f86cd73~mv2.png"
+    },
+    {
+      "filename": "1st_gallery_3.jpg",
+      "src": "https://static.wixstatic.com/media/c83661_c005b966a7f24c5cb6e2b845d36b746d~mv2.png/v1/fit/w_480,h_1372,q_90,enc_avif,quality_auto/c83661_c005b966a7f24c5cb6e2b845d36b746d~mv2.png"
+    },
+    {
+      "filename": "1st_gallery_4.jpg",
+      "src": "https://static.wixstatic.com/media/c83661_4fb118c2794943c6afc3825ec1a2a235~mv2.png/v1/fit/w_480,h_1372,q_90,enc_avif,quality_auto/c83661_4fb118c2794943c6afc3825ec1a2a235~mv2.png"
+    },
+    {
+      "filename": "1st_gallery_5.jpg",
+      "src": "https://static.wixstatic.com/media/c83661_7a5b44967bd84264b20328c0915c4049~mv2.png/v1/fill/w_480,h_1372,fp_0.93_0.71,q_90,enc_avif,quality_auto/c83661_7a5b44967bd84264b20328c0915c4049~mv2.png"
+    },
+    {
+      "filename": "1st_gallery_6.jpg",
+      "src": "https://static.wixstatic.com/media/c83661_76eddad22fb84c2d86dc7adf8f9ee3e1~mv2.png/v1/fit/w_480,h_1372,q_90,enc_avif,quality_auto/c83661_76eddad22fb84c2d86dc7adf8f9ee3e1~mv2.png"
+    },
+    {
+      "filename": "1st_gallery_7.jpg",
+      "src": "https://static.wixstatic.com/media/c83661_8c9e870465bb478c9e770f35e0e4fc0c~mv2.png/v1/fill/w_189,h_500,fp_0.44_0.55,q_90,enc_avif,quality_auto/c83661_8c9e870465bb478c9e770f35e0e4fc0c~mv2.png"
+    },
+    {
+      "filename": "1st_gallery_8.jpg",
+      "src": "https://static.wixstatic.com/media/c83661_4fb118c2794943c6afc3825ec1a2a235~mv2.png/v1/fill/w_189,h_540,q_90,enc_avif,quality_auto/c83661_4fb118c2794943c6afc3825ec1a2a235~mv2.png"
+    },
+    {
+      "filename": "1st_gallery_9.jpg",
+      "src": "https://static.wixstatic.com/media/c83661_266c63551eec4bfc9782bc2ae41a15a0~mv2.png/v1/fill/w_189,h_540,fp_0.16_0.59,q_90,enc_avif,quality_auto/c83661_266c63551eec4bfc9782bc2ae41a15a0~mv2.png"
+    },
+    {
+      "filename": "1st_gallery_10.jpg",
+      "src": "https://static.wixstatic.com/media/c83661_57014973ce87430ca53e5f578f6f7ebd~mv2.png/v1/fill/w_189,h_540,fp_0.59_0.51,q_90,enc_avif,quality_auto/c83661_57014973ce87430ca53e5f578f6f7ebd~mv2.png"
+    },
+    {
+      "filename": "1st_gallery_11.jpg",
+      "src": "https://static.wixstatic.com/media/c83661_3c1469c8ec6e4b0f85a76c1dd6e17612~mv2.png/v1/fill/w_189,h_540,fp_0.39_0.6,q_90,enc_avif,quality_auto/c83661_3c1469c8ec6e4b0f85a76c1dd6e17612~mv2.png"
+    },
+    {
+      "filename": "1st_gallery_12.jpg",
+      "src": "https://static.wixstatic.com/media/c83661_475cb0213f0b41b8800eb5360ad779ff~mv2.png/v1/fill/w_189,h_540,fp_0.18_0.71,q_90,enc_avif,quality_auto/c83661_475cb0213f0b41b8800eb5360ad779ff~mv2.png"
+    },
+    {
+      "filename": "1st_gallery_13.jpg",
+      "src": "https://static.wixstatic.com/media/c83661_5aa69311e9dc42a8a929114f8f86cd73~mv2.png/v1/fill/w_189,h_540,fp_0.75_0.5,q_90,enc_avif,quality_auto/c83661_5aa69311e9dc42a8a929114f8f86cd73~mv2.png"
+    },
+    {
+      "filename": "1st_gallery_14.jpg",
+      "src": "https://static.wixstatic.com/media/c83661_c005b966a7f24c5cb6e2b845d36b746d~mv2.png/v1/fill/w_189,h_540,q_90,enc_avif,quality_auto/c83661_c005b966a7f24c5cb6e2b845d36b746d~mv2.png"
+    },
+    {
+      "filename": "1st_gallery_15.jpg",
+      "src": "https://static.wixstatic.com/media/c83661_76eddad22fb84c2d86dc7adf8f9ee3e1~mv2.png/v1/fill/w_189,h_540,q_90,enc_avif,quality_auto/c83661_76eddad22fb84c2d86dc7adf8f9ee3e1~mv2.png"
+    },
+    {
+      "filename": "1st_gallery_16.jpg",
+      "src": "https://static.wixstatic.com/media/c83661_7a5b44967bd84264b20328c0915c4049~mv2.png/v1/fill/w_189,h_540,fp_0.93_0.71,q_90,enc_avif,quality_auto/c83661_7a5b44967bd84264b20328c0915c4049~mv2.png"
+    }
+  ],
+  "text": "AJV\n\nHome\n\nPortfolio\n\nLife\n\nAbout\n\nContact\n\ndisruptive innovation\n\nMany are industry firsts, award winning and all deliver against an athlete need, benefit and desire.  My innovation background is diverse: robotics, digital product and experiences, retail experiences, footwear, apparel, technology, manufacturing, sustainable materials, women-led innovation.  20+ patents.\n\n< Back to Portfolio\n\n© 2023 by The Art of Food. Proudly created with Wix.com"
+}

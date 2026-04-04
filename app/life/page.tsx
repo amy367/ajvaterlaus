@@ -43,7 +43,7 @@ export default function LifePage() {
               alt={photo.alt || `Life photo ${i + 1}`}
               width={600}
               height={800}
-              className="w-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+              className="w-full object-cover"
             />
           </div>
         ))}

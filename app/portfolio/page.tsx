@@ -1,20 +1,27 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const PILLARS = [
   {
     title: "Revolutionary Innovation",
-    body: "Driving bold, first-of-its-kind innovation across industries — from smart sport electronics and robotics to next-generation digital products and platforms.",
+    subtitle: "Disruptive Innovation",
+    body: "As a mechanical engineer I know what it takes to build robots and smart soccer balls… My innovation background is diverse: robotics, digital product and experiences, retail experiences, footwear, apparel, technology, manufacturing, sustainable materials, women-led innovation. 20+ patents.",
     image: "/images/portfolio_0.jpg",
+    href: "/portfolio/revolutionary-innovation",
   },
   {
     title: "Strategic Growth",
-    body: "Translating abstract ideas into actionable growth strategies. Delivering billion-dollar product platforms and innovation pipelines from insight to market.",
+    subtitle: "Growth & Vision",
+    body: "Sport has the capacity to change lives, but it's been limited to certain lives. Innovation is a catalyst for all to experience sport. I excel in translating abstract ideas, insights and information into bold new strategies and growth opportunities.",
     image: "/images/portfolio_1.jpg",
+    href: "/portfolio/strategic-growth",
   },
   {
     title: "Connected Leadership",
-    body: "Building and leading vibrant global teams of engineers, designers, scientists and insight experts through major organizational and brand transformations.",
+    subtitle: "Leadership",
+    body: "There is power in diverse teams, thought and partnerships and amplified when combined with curiosity, optimism and a shared purpose. Innovation is complex — a successful pipeline from idea to consumer requires strong leadership, vision and an aligned team.",
     image: "/images/portfolio_2.jpg",
+    href: "/portfolio/connected-leadership",
   },
 ];
 
@@ -47,45 +54,27 @@ export default function PortfolioPage() {
                 src={pillar.image}
                 alt={pillar.title}
                 fill
-                className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="object-cover"
               />
             </div>
             <div className={`flex flex-col gap-6 ${i % 2 === 1 ? "sm:col-start-1 sm:row-start-1" : ""}`}>
+              <p className="font-[family-name:var(--font-display)] text-xs tracking-[0.3em] uppercase text-[#c4a882]">
+                {pillar.subtitle}
+              </p>
               <div className="w-12 h-px bg-[#c4a882]" />
               <h2 className="font-[family-name:var(--font-display)] text-xl tracking-[0.15em] uppercase text-[#e8e4dc]">
                 {pillar.title}
               </h2>
               <p className="text-[#888070] leading-relaxed">{pillar.body}</p>
+              <Link
+                href={pillar.href}
+                className="font-[family-name:var(--font-display)] text-xs tracking-[0.25em] uppercase px-6 py-2 border border-[#555] text-[#a09a90] hover:border-[#c4a882] hover:text-[#c4a882] transition-all self-start"
+              >
+                View
+              </Link>
             </div>
           </div>
         ))}
-      </div>
-
-      {/* Expertise list */}
-      <div className="mt-24 border-t border-[#333] pt-16">
-        <p className="font-[family-name:var(--font-display)] text-xs tracking-[0.4em] uppercase text-[#555] mb-10 text-center">
-          Areas of Expertise
-        </p>
-        <div className="grid sm:grid-cols-3 gap-4 text-center">
-          {[
-            "Robotics & Automation",
-            "Digital Product & Experience",
-            "Footwear & Apparel",
-            "Consumer Technology",
-            "Women-Led Innovation",
-            "Human-Centered Research",
-            "Innovation Strategy",
-            "Cross-Functional Leadership",
-            "Patent Development",
-          ].map((area) => (
-            <div
-              key={area}
-              className="font-[family-name:var(--font-display)] text-xs tracking-[0.15em] uppercase text-[#555] border border-[#2a2a2a] py-4 px-3 hover:border-[#c4a882] hover:text-[#c4a882] transition-all"
-            >
-              {area}
-            </div>
-          ))}
-        </div>
       </div>
     </div>
   );
