@@ -16,6 +16,7 @@ const PRODUCTS = [
   { slug: "energy-bra",             title: "Energy Bra",                   role: "Sr. Director Women's Innovation · 2019",   image: "/images/product_energy-bra_8.jpg" },
   { slug: "personal-concierge",     title: "Personal Concierge",           role: "Product Strategy · Yohana & Panasonic Well", image: "/images/product_personal-concierge.png" },
   { slug: "nike-applied-science", title: "Nike Applied Science", role: "VP Product Research · Nike Advanced Innovation · 2024–2025", image: "/images/product_nike-applied-science.png" },
+  { slug: "breaking-4", title: "Breaking 4", role: "Nike Advanced Innovation · June 2025 · Paris", image: "/images/product_breaking-4_1.png" },
 ];
 
 export default function RevolutionaryInnovationPage() {
