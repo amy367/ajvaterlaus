@@ -10,7 +10,7 @@ const PRODUCTS = [
   { slug: "strung",                 title: "Specialized — STRUNG",         role: "VP Consumer and Tech · 2019",               image: "/images/product_strung_8.jpg" },
   { slug: "4d",                     title: "Specialized — 4D",             role: "VP Consumer and Tech · 2019",               image: "/images/product_4d_8.jpg" },
   { slug: "sustainable-materials",  title: "Sustainable Materials",        role: "VP Consumer and Tech · 2019",               image: "/images/product_sustainable-materials_8.jpg" },
-  { slug: "stay-in-play",           title: "Stay in Play",                 role: "Sr. Director Women's Innovation · 2019",   image: "/images/product_stay-in-play_7.jpg" },
+  { slug: "stay-in-play",           title: "Stay in Play",                 role: "Sr. Director Women's Innovation · 2019",   image: "/images/product_stay-in-play_new.jpg" },
   { slug: "future-craft-apparel",   title: "Future Craft Apparel",         role: "VP Consumer and Tech · 2019",               image: "/images/product_future-craft-apparel_7.jpg" },
   { slug: "shield",                 title: "Shield",                       role: "VP Consumer and Tech · 2020",               image: "/images/product_shield_7.jpg" },
   { slug: "energy-bra",             title: "Energy Bra",                   role: "Sr. Director Women's Innovation · 2019",   image: "/images/product_energy-bra_grid.png" },

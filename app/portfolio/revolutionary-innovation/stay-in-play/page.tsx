@@ -9,7 +9,7 @@ export default function StayInPlayPage() {
       </Link>
       <div className="grid sm:grid-cols-2 gap-16 items-start">
         <div className="relative aspect-[3/4] overflow-hidden">
-          <Image src="/images/product_stay-in-play_7.jpg" alt="Stay in Play apparel" fill className="object-cover" />
+          <Image src="/images/product_stay-in-play_new.jpg" alt="Stay in Play apparel" fill className="object-cover" />
         </div>
         <div className="flex flex-col gap-6">
           <p className="font-[family-name:var(--font-display)] text-xs tracking-[0.4em] uppercase text-[#c4a882]">Sr. Director Women&apos;s Innovation</p>
