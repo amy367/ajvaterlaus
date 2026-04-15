@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const PILLARS = [
   {
-    title: "Revolutionary Innovation",
-    subtitle: "Disruptive Innovation",
+    title: "Turning Ideas into Scalable Business Impact",
+    subtitle: "Innovation Systems",
     body: "As a mechanical engineer I know what it takes to build robots and smart soccer balls… My innovation background is diverse: robotics, digital product and experiences, retail experiences, footwear, apparel, technology, manufacturing, sustainable materials, women-led innovation. 20+ patents.",
     image: "/images/portfolio_0.jpg",
     href: "/portfolio/revolutionary-innovation",

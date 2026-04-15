@@ -29,10 +29,10 @@ export default function RevolutionaryInnovationPage() {
 
       <div className="text-center mb-16">
         <p className="font-[family-name:var(--font-display)] text-xs tracking-[0.4em] uppercase text-[#c4a882] mb-4">
-          Disruptive Innovation
+          Innovation Systems
         </p>
         <h1 className="font-[family-name:var(--font-display)] text-4xl sm:text-5xl tracking-widest uppercase text-[#e8e4dc] mb-8">
-          Revolutionary Innovation
+          Turning Ideas into Scalable Business Impact
         </h1>
         <p className="text-[#a09a90] max-w-2xl mx-auto leading-relaxed">
           Many are industry firsts, award winning and all deliver against an athlete need, benefit and desire.
