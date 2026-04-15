@@ -13,7 +13,7 @@ const PRODUCTS = [
   { slug: "stay-in-play",           title: "Stay in Play",                 role: "Sr. Director Women's Innovation · 2019",   image: "/images/product_stay-in-play_7.jpg" },
   { slug: "future-craft-apparel",   title: "Future Craft Apparel",         role: "VP Consumer and Tech · 2019",               image: "/images/product_future-craft-apparel_7.jpg" },
   { slug: "shield",                 title: "Shield",                       role: "VP Consumer and Tech · 2020",               image: "/images/product_shield_7.jpg" },
-  { slug: "energy-bra",             title: "Energy Bra",                   role: "Sr. Director Women's Innovation · 2019",   image: "/images/product_energy-bra_8.jpg" },
+  { slug: "energy-bra",             title: "Energy Bra",                   role: "Sr. Director Women's Innovation · 2019",   image: "/images/product_energy-bra_grid.png" },
   { slug: "personal-concierge",     title: "Personal Concierge",           role: "Product Strategy · Yohana & Panasonic Well", image: "/images/product_personal-concierge.png" },
   { slug: "nike-applied-science", title: "Nike Applied Science", role: "VP Product Research · Nike Advanced Innovation · 2024–2025", image: "/images/product_nike-applied-science.png" },
   { slug: "breaking-4", title: "Breaking 4", role: "Nike Advanced Innovation · June 2025 · Paris", image: "/images/product_breaking-4_1.png" },
