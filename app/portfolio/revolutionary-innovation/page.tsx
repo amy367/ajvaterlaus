@@ -32,7 +32,7 @@ export default function RevolutionaryInnovationPage() {
           Innovation Systems
         </p>
         <h1 className="font-[family-name:var(--font-display)] text-4xl sm:text-5xl tracking-widest uppercase text-[#e8e4dc] mb-8">
-          Turning Ideas into Scalable Business Impact
+          Turning Ideas into Tangible Future(s)
         </h1>
         <p className="text-[#a09a90] max-w-2xl mx-auto leading-relaxed">
           Many are industry firsts, award winning and all deliver against an athlete need, benefit and desire.

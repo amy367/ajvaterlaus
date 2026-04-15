@@ -38,7 +38,7 @@ export default function HomePage() {
       <section className="max-w-6xl mx-auto px-6 py-24 grid sm:grid-cols-3 gap-12 text-center">
         {[
           {
-            title: "Turning Ideas into Scalable Business Impact",
+            title: "Turning Ideas into Tangible Future(s)",
             body: "Building the future through bold thinking and human-centered design.",
           },
           {
