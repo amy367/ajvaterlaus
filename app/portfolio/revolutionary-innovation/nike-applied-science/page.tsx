@@ -10,7 +10,7 @@ export default function NikeAppliedSciencePage() {
       <div className="grid sm:grid-cols-2 gap-16 items-start">
         <div className="relative aspect-[4/3] overflow-hidden">
           <Image
-            src="/images/product_nike-applied-science.jpg"
+            src="/images/product_nike-applied-science.png"
             alt="Nike Applied Science — neuroscience research"
             fill
             className="object-cover"
