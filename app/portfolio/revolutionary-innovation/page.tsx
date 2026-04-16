@@ -18,6 +18,7 @@ const PRODUCTS = [
   { slug: "future-environments", title: "Future Environments", role: "Strategic Positioning Consult · Temple Jones · 2022–2023", image: "/images/product_future-environments.png" },
   { slug: "nike-applied-science", title: "Nike Applied Science", role: "VP Product Research · Nike Advanced Innovation · 2023–2025", image: "/images/product_nike-applied-science.png" },
   { slug: "future-of-training", title: "Future of Training Construct", role: "Nike Advanced Innovation · 2024", image: "/images/product_future-of-training.png" },
+  { slug: "nike-womens-innovation", title: "Nike Women's Innovation", role: "Nike Advanced Innovation · 2024–2025", image: "/images/product_nike-womens-innovation.png" },
   { slug: "breaking-4", title: "Breaking 4", role: "Nike Advanced Innovation · June 2025 · Paris", image: "/images/product_breaking-4_1.png" },
 ];
 
