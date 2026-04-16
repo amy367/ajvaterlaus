@@ -39,8 +39,8 @@ export default function RevolutionaryInnovationPage() {
         </h1>
         <p className="text-[#a09a90] max-w-2xl mx-auto leading-relaxed">
           Many are industry firsts, award winning and all deliver against an athlete need, benefit and desire.
-          My innovation background is diverse: robotics, digital product and experiences, retail experiences,
-          footwear, apparel, technology, manufacturing, sustainable materials, applied science, women-led innovation. 30 patents.
+          My innovation background is diverse: robotics, digital product, retail experiences,
+          footwear, apparel, technology, manufacturing, sustainable materials, applied science, and women-led innovation. 30 patents.
         </p>
       </div>
 
