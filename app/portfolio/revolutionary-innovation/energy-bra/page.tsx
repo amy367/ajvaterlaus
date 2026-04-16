@@ -18,7 +18,7 @@ export default function EnergyBraPage() {
         </div>
         <div className="flex flex-col gap-6">
           <p className="font-[family-name:var(--font-display)] text-xs tracking-[0.4em] uppercase text-[#c4a882]">
-            VP Apparel Innovation Future · 2022
+            VP Apparel Innovation, Future
           </p>
           <h1 className="font-[family-name:var(--font-display)] text-3xl tracking-widest uppercase text-[#e8e4dc]">
             Energy Bra

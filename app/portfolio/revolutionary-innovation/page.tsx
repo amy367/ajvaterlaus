@@ -7,16 +7,16 @@ const PRODUCTS = [
   { slug: "adidas-micoach",         title: "adidas miCoach",               role: "Director Mechanical Engineer · 2008–12",    image: "/images/product_adidas-micoach_8.jpg" },
   { slug: "adidas-smartball",       title: "adidas SmartBall",             role: "Director Digital Experience · 2014",        image: "/images/product_adidas-smartball_8.jpg" },
   { slug: "adidas-all-day",         title: "adidas All Day",               role: "Sr. Director Digital Experience · 2017",   image: "/images/product_adidas-all-day_8.jpg" },
-  { slug: "strung",                 title: "Specialized — STRUNG",         role: "VP Consumer and Tech · 2019",               image: "/images/product_strung_8.jpg" },
-  { slug: "4d",                     title: "Specialized — 4D",             role: "VP Consumer and Tech · 2019",               image: "/images/product_4d_8.jpg" },
-  { slug: "sustainable-materials",  title: "Sustainable Materials",        role: "VP Consumer and Tech · 2019",               image: "/images/product_sustainable-materials_8.jpg" },
-  { slug: "stay-in-play",           title: "Stay in Play",                 role: "Sr. Director Women's Innovation · 2019",   image: "/images/product_stay-in-play_new.jpg" },
-  { slug: "future-craft-apparel",   title: "Future Craft Apparel",         role: "VP Consumer and Tech · 2019",               image: "/images/product_future-craft-apparel_7.jpg" },
-  { slug: "shield",                 title: "Shield",                       role: "VP Consumer and Tech · 2020",               image: "/images/product_shield_7.jpg" },
+  { slug: "stay-in-play",           title: "Stay in Play",                 role: "Women's Innovation · 2019",             image: "/images/product_stay-in-play_new.jpg" },
+  { slug: "strung",                 title: "Specialized — STRUNG",         role: "VP Consumer and Tech",               image: "/images/product_strung_8.jpg" },
+  { slug: "4d",                     title: "Specialized — 4D",             role: "VP Consumer and Tech",               image: "/images/product_4d_8.jpg" },
+  { slug: "sustainable-materials",  title: "Sustainable Materials",        role: "VP Consumer and Tech",               image: "/images/product_sustainable-materials_8.jpg" },
+  { slug: "future-craft-apparel",   title: "Future Craft Apparel",         role: "VP Consumer and Tech",               image: "/images/product_future-craft-apparel_7.jpg" },
+  { slug: "shield",                 title: "Shield",                       role: "VP Consumer and Tech",               image: "/images/product_shield_7.jpg" },
   { slug: "energy-bra",             title: "Energy Bra",                   role: "Sr. Director Women's Innovation · 2019",   image: "/images/product_energy-bra_grid.png" },
-  { slug: "personal-concierge",     title: "Personal Concierge",           role: "Product Strategy · Yohana & Panasonic Well", image: "/images/product_personal-concierge.png" },
+  { slug: "personal-concierge",     title: "Personal Concierge",           role: "Temple Jones Consulting · 2022–2023", image: "/images/product_personal-concierge.png" },
   { slug: "future-environments", title: "Future Environments", role: "Strategic Positioning Consult · Temple Jones · 2022–2023", image: "/images/product_future-environments.png" },
-  { slug: "nike-applied-science", title: "Nike Applied Science", role: "VP Product Research · Nike Advanced Innovation · 2024–2025", image: "/images/product_nike-applied-science.png" },
+  { slug: "nike-applied-science", title: "Nike Applied Science", role: "VP Product Research · Nike Advanced Innovation · 2023–2025", image: "/images/product_nike-applied-science.png" },
   { slug: "breaking-4", title: "Breaking 4", role: "Nike Advanced Innovation · June 2025 · Paris", image: "/images/product_breaking-4_1.png" },
 ];
 
@@ -35,7 +35,7 @@ export default function RevolutionaryInnovationPage() {
           Innovation Systems
         </p>
         <h1 className="font-[family-name:var(--font-display)] text-4xl sm:text-5xl tracking-widest uppercase text-[#e8e4dc] mb-8">
-          Turning Ideas into Tangible Future(s)
+          Turning Ideas into Tangible&nbsp;Future(s)
         </h1>
         <p className="text-[#a09a90] max-w-2xl mx-auto leading-relaxed">
           Many are industry firsts, award winning and all deliver against an athlete need, benefit and desire.
