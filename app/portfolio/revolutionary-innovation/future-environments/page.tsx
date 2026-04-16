@@ -11,7 +11,7 @@ export default function FutureEnvironmentsPage() {
         <div className="relative aspect-[4/3] overflow-hidden">
           <Image
             src="/images/product_future-environments.png"
-            alt="Future Environments — Future Hotels concept"
+            alt="Future Proof Consult — Temple Jones Consulting"
             fill
             className="object-cover"
           />
@@ -21,15 +21,15 @@ export default function FutureEnvironmentsPage() {
             Strategic Positioning Consult · Temple Jones Consulting · 2022–2023
           </p>
           <h1 className="font-[family-name:var(--font-display)] text-3xl tracking-widest uppercase text-[#e8e4dc]">
-            Future Environments
+            Future Proof Consult
           </h1>
           <div className="w-12 h-px bg-[#333]" />
           <p className="text-[#a09a90] leading-relaxed">
-            One example of Temple Jones work. Future Hotels — built on the concept of Circadian Rhythm
-            and embedded tech environments.
+            Future Proofing start up and established organizations.
           </p>
           <p className="text-[#888070] text-sm leading-relaxed">
-            Consumer, tech, science input.
+            Future Environments, Circadian Rhythm Hotels combining human design with science and tech
+            to Board Member of YUSA, focused on strategic future facing initiatives.
           </p>
         </div>
       </div>

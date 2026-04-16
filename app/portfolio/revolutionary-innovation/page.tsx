@@ -15,7 +15,7 @@ const PRODUCTS = [
   { slug: "shield",                 title: "Shield",                       role: "VP Consumer and Tech",               image: "/images/product_shield_7.jpg" },
   { slug: "energy-bra",             title: "Energy Apparel",                   role: "VP Apparel Innovation, Future",   image: "/images/product_energy-bra_grid.png" },
   { slug: "personal-concierge",     title: "Personal Concierge",           role: "Temple Jones Consulting · 2022–2023", image: "/images/product_personal-concierge.png" },
-  { slug: "future-environments", title: "Future Environments", role: "Strategic Positioning Consult · Temple Jones · 2022–2023", image: "/images/product_future-environments.png" },
+  { slug: "future-environments", title: "Future Proof Consult", role: "Temple Jones Consulting · 2022–2023", image: "/images/product_future-environments.png" },
   { slug: "nike-applied-science", title: "Nike Applied Science", role: "VP Product Research · Nike Advanced Innovation · 2023–2025", image: "/images/product_nike-applied-science.png" },
   { slug: "future-of-training", title: "Future of Training", role: "Nike Advanced Innovation · 2024", image: "/images/product_future-of-training.png" },
   { slug: "nike-womens-innovation", title: "Nike Women's Innovation", role: "Nike Advanced Innovation · 2024–2025", image: "/images/product_nike-womens-innovation.png" },
